@@ -1,0 +1,286 @@
+header {
+  background-color: #EDEDED;
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  width: 100%; 
+  height:50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-right {
+  padding: 10px 5px 5px 20px;
+  float: right;
+  margin-right: 5px;
+}
+
+.header-right a{
+  float: left;
+  color: rebeccapurple;
+  padding: 5px 10px 5px 10px ;
+  margin-left: 35px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.header-right a:hover {
+  border-bottom: 5px solid rebeccapurple;
+  color:rebeccapurple;
+  transition: all 0.5s;
+}
+
+.header-left{
+  float: left;
+  padding: 10px 20px 5px 20px;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+  margin: 0px 5px ;
+}
+
+.toogle {
+  color: rebeccapurple;
+  float: right;
+  font-size: 30px;
+  padding: 20px 10px;
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.top-wrapper {
+  padding: 300px 0;
+  margin: 0;
+  text-align: center;
+  background-image: url(./banner1.jpg);
+  background-size: cover; 
+  background-position: center;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: auto;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 85px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: rebeccapurple;
+  margin-top: auto;
+
+}
+
+.container h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: rebeccapurple;
+  padding: 0 50px;
+  margin: auto;
+}
+
+strong {
+  background-color:f7f7f7;
+  opacity: 0,8;
+  border-radius: 4px;
+  color: #3b9874;
+}
+
+  
+
+
+.btn {
+  padding: 18px 30px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 12px;
+  background-color: #3b9874;
+  border: 2px solid #EDEDED;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+  
+}
+
+
+.btn:hover {
+  opacity: 1;
+  color: white; 
+  transition: all 0.5s;
+  background-color: rebeccapurple;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #EDEDED;
+}
+
+
+
+/* about */
+
+.about-wrapper {
+  padding: 200px 0;
+  background-color: #EDEDED;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.right {
+  text-align: right;
+  padding-left: 50px;
+}
+
+.left {
+  text-align: left;
+  padding-right: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.heading h1 {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rebeccapurple;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 62px;
+}
+
+.column p {
+  width: 90%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 28px;
+  color: rebeccapurple;
+}
+
+/* end of about */
+
+
+
+/* footer */
+footer{
+text-align: center;
+background-color:#EDEDED;
+}
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: gray;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+/* end of footer */
+
+
+
+/* contact */
+
+.contact-wrapper {
+  overflow: hidden;
+  background: linear-gradient(to bottom left, #58508d 0%, #bc5090 100%);
+  float: center;
+  width: 100%; 
+  padding: 120px 0;
+}
+
+.contact-headings h1 {
+  color: #EDEDED;
+  text-align: center;
+  float: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 62px;
+}
+
+
+tr {
+  text-align: center;
+  color: #EDEDED;
+  border-radius: 12px;
+}
+
+td {
+  padding: 5px;
+  display: inline;
+}
+
+input[type=text] {
+  padding: 20px 80px;
+  width: fit-content;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea[type=text] {
+  padding: 60px 63px;
+  width: 78%;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  width: 99%;
+  display: inline;
+  background-color:  #bc5090;
+  color: white; 
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-top:15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+input, textarea::placeholder{
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+/* end of contact */
+
