@@ -1,4 +1,4 @@
-# A04-Project_V.2.0
+# A04-Project-V2
 Versi lain dari Proyek tim A04 untuk tugas Coding Experience Bootcamp CfDS UGM x Progate
 
 ## Landing Page Survey
@@ -13,7 +13,7 @@ Versi lain dari Proyek tim A04 untuk tugas Coding Experience Bootcamp CfDS UGM x
 - [x] 1 Animasi 
 - [x] Desain responsif smartphone dan tablet
 
-## Release Notes V.2.0
+## Release Notes V2
 - Bagian Main 
   - Mengganti gambar
   - Mengganti align text dan button
