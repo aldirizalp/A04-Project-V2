@@ -1,9 +1,4 @@
-# A04-Project-V2
-Versi lain dari Proyek tim A04 untuk tugas Coding Experience Bootcamp CfDS UGM x Progate
-
 ## Landing Page Survey
-
-6 Komponen agar dinyatakan **PASS**:
 - [x] Header 
 - [x] Bagian Main 
 - [x] Bagian Main Tambahan
